@@ -1,0 +1,16 @@
+version: '1.0'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    command: ["mysqld", "--mysql-native-password=ON"]
+    environment:
+      - MYSQL_ROOT_PASSWORD=customurl
+      - MYSQL_USER=urlshortener
+      - MYSQL_PASSWORD=customurl
+    ports:
+      - 3307:3306
+    volumes:
+      - ./dbvolume/initialization:/docker-entrypoint-initdb.d
+      - ./dbvolume/volume:/var/lib/mysql
