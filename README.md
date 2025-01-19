@@ -22,6 +22,7 @@ npm install
 
 3. **Initialize database**
 ```
+mkdir dbvolume/volume
 docker compose up
 ```
 
