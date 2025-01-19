@@ -12,8 +12,8 @@ This is a simple URL shortening service built with ExpressJS, MySQL as URL datab
 ### Installation
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/url-shortener.git
-cd url-shortener
+git clone https://github.com/omlgg/URL_Shortener.git
+cd URL_Shortener
 ```
 2. **Install dependencies:**
 ```
