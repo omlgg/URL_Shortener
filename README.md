@@ -25,6 +25,11 @@ npm install
 mkdir dbvolume/volume
 docker compose up
 ```
+4. **Start server**
+```
+npm start
+```
+
 
 ## API Endpoints
 
